@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    
-      $.getJSON("http://ip-api.com/json", function(json) {
-        $(".message").html(JSON.stringify(json));
+    alert("test");
+      //$.getJSON("http://ip-api.com/json", function(json) {
+    //    $(".message").html(JSON.stringify(json));
         /*var city = json["city"];
         var region = json["region"];
         var key = "6b02fb2a4f4e51e0";
