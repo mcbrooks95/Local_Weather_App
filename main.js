@@ -22,9 +22,16 @@ $(document).ready(function() {
 		country_string = JSON.stringify(json["countryCode"]);
 		country_string2 = country_string.substring(1, (country_string.length - 1));
 
+     /* var test = "\"House\"";
+console.log(test);
+console.log(test.replace(/\"/g, ""));
+      */
 		key = "6b02fb2a4f4e51e0";
-		url = "http://api.wunderground.com/api/" + key + "/conditions/q/" + region_string2 + "/" + city_string2 + ".json";
-       	$(".text2").html(city_string2 + ", " + region_string2 + ", " + country_string2);
+	//	url = "http://api.wunderground.com/api/" + key + "/conditions/q/" + region_string2 + "/" + city_string2 + ".json";
+  //     	$(".text2").html(city_string2 + ", " + region_string2 + ", " + country_string2);
+
+    url = "http://api.wunderground.com/api/" + key + "/conditions/q/" + region_string2 + "/" + city_string2 + ".json";
+        $(".text2").html(city_string.replace(/\"/g, "") + ", " + region_string.replace(/\"/g, "") + ", " + country_string.replace(/\"/g, ""));
 
         $.getJSON(url, function(json) {
 			icon_url = JSON.stringify(json.current_observation.icon_url);
