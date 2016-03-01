@@ -1,0 +1,74 @@
+body {
+  height: 1000px;
+  width: cover;
+  background-color: black;
+}
+
+.textbox {
+  height: 40%;
+  
+}
+
+.textContainer {
+  position: relative;
+  top: 20%;
+  color: white;
+}
+
+.text1 {
+  font-size: 40px;
+  text-align: center; 
+}
+
+.text2 {
+  font-size: 40px;
+  text-align: center;
+}
+.text3 {
+  font-size: 40px;
+  text-align: right;
+}
+
+.text4 {
+  font-size: 40px;
+  text-align: center;
+  float: left;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.asText {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+
+.row {
+  padding: 0px;
+  margin: 0px;
+  /*width: 200px;
+  */
+}
+
+.col-md-6 {
+  padding: 0px;
+  margin: 0px;
+}
+button {
+  outline: none;
+}
+
+img {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  left: 45%;
+}
