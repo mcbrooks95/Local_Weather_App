@@ -4,35 +4,21 @@ body {
   background-color: black;
 }
 
-.textbox {
-  height: 40%;
-  
-}
-
 .textContainer {
+  height: 40%;
   position: relative;
   top: 20%;
   color: white;
 }
 
-.text1 {
+.text1, .text2, .text4 {
   font-size: 40px;
   text-align: center; 
 }
 
-.text2 {
-  font-size: 40px;
-  text-align: center;
-}
 .text3 {
   font-size: 40px;
   text-align: right;
-}
-
-.text4 {
-  font-size: 40px;
-  text-align: center;
-  float: left;
 }
 
 .box {
@@ -50,18 +36,11 @@ body {
   text-align: left;
 }
 
-
-.row {
-  padding: 0px;
-  margin: 0px;
-  /*width: 200px;
-  */
-}
-
-.col-md-6 {
+.row, .col-md-6 {
   padding: 0px;
   margin: 0px;
 }
+
 button {
   outline: none;
 }
