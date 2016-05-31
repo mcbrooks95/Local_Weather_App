@@ -18,11 +18,7 @@ $(document).ready(function() {
 
     $('.asText').click(function() {
         
-        if(CorF === "C") {
-          CorF = "F";      
-        } else {
-          CorF = "C";      
-        }
+        CorF = CorF === "C" ? "F" : "C";
                // $(".text4").html(url);
         $.getJSON(url, function(json) {
 			if(CorF === "C") {
